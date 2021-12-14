@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gana fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('bd.jpg');
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+    .left{
+        display:inline-block block;
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 20px;
+        left: 40px;
+
+    }
+    .left img{
+
+        width: 64px;
+        /* filter: invert(100%); */
+        border-radius: 17px;
+    }
+    .left div{
+        text-align: center;
+        width: 2px 2px;
+    }
+    .btn{
+        padding: 2px 12px;
+         margin: 0px 7px;
+         background-color: black;
+         color: white;
+         border: 2px solid grey;
+         border-radius: 10px;
+         font-family: 'Baloo Bhaina 2', cursive;
+         /* border-bottom: 2px solid black; */
+         /* display: none; */
+         
+    }
+    .btn:hover{
+        background-color: grey;
+
+        
+    }
+    .center{
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        /* border: 2px solid rgb(202, 187, 202); */
+    }
+    .right{
+        position: absolute;
+       top: 34px;
+       right: 20px;
+        /* border: 2px solid rgb(30, 255, 0); */
+        display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        color: white;
+        font-size: 17px;
+        /* padding: 20px 20px; */
+        /* border-bottom: 2px solid grey; */
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 18px 24px;
+        
+    }
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(197, 183, 183);
+    }
+    .container{
+        border: 2px solid red;
+    margin: 93px 33px;
+    padding: 38px 61px;
+    width: 51%;
+    display: block;
+    border-radius: 23px;
+    border-color: white;
+    /* display: none; */
+    }
+    .form-group input{
+    
+        text-align: center;
+    display: block;
+    width: 294px;
+    font-size: 15px;
+    /* border: 4px solid black; */
+    padding: 3px;
+    margin: 5px auto;
+    border-radius: 14px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    }
+    .container h1{
+
+        text-align: center  ;
+        background: none;
+    }
+    .container button{
+      display: block;
+      width: 33%;
+      margin: auto;
+    }
+     
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+         <img src="logo.jpg" alt="">
+         <!-- <div>gana fitness</div> -->
+         GANA FITNESS
+           
+        </div>
+        <div class="center">
+           
+            <ul class="navbar">
+                <li><a href=""> HOME</a></li>
+                <li><a href="">ABOUT US</a> </li>
+                <li><a href="">DIET</a> </li>
+                <li><a href="">CONTACT</a> </li>
+           </ul>
+
+        </div>
+        <div class="right">
+        <button class="btn">call us</button>
+        <button class="btn">e-mail us</button>
+        </div>
+    </header>
+    <div class="container"><h1> JOIN THE BEST GYM IN AKLUJ</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" placeholder="NAME">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="AGE">
+        </div>
+        <div class="form-group">
+            <input type="email" placeholder="E-MAIL">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="GENDER">
+        </div>
+        <button class="btn">submit</button>
+    </div>
+
+    </form>
+
+    
+</body>
+</html>

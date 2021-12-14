@@ -1,0 +1,73 @@
+/* 
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('bd.jpg');
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+    .left{
+        display:inline-block block;
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 20px;
+        left: 40px;
+
+    }
+    .left img{
+
+        width: 64px;
+        /* filter: invert(100%); */
+        border-radius: 17px;
+    }
+    .left div{
+        text-align: center;
+        width: 2px 2px;
+    }
+    .btn{
+        padding: 2px 12px;
+         margin: 0px 7px;
+         background-color: black;
+         color: white;
+         border: 2px solid grey;
+         border-radius: 10px;
+         font-family: 'Baloo Bhaina 2', cursive;
+         
+    }
+    .btn:hover{
+        background-color: grey;
+        
+    }
+    .center{
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+        /* border: 2px solid rgb(255, 0, 255); */
+    }
+    .right{
+        position: absolute;
+       top: 34px;
+       right: 20px;
+        /* border: 2px solid rgb(30, 255, 0); */
+        display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        color: white;
+        font-size: 17px;
+        /* padding: 20px 20px; */
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 18px 24px;
+        
+    }
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+    }
+      */
